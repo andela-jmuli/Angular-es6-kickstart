@@ -8,6 +8,9 @@ let config = {
   watch: false,
   module: {
     loaders: [{
+      test: /\.less$/,
+      loader: "style!css!less"
+    }, {
       test: /\.css$/,
       loader: "style!css"
     }, {

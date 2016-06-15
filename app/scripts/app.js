@@ -10,6 +10,9 @@ import 'ngcomponentrouter';
 // Import angular material
 import 'angular-material';
 
+// import styling files
+import './styles';
+
 // Import templates
 import './config/app.templates';
 // Import app functionality

@@ -2,11 +2,8 @@
   "name": "Angular-es6-kickstart",
   "version": "1.0.0",
   "description": "Angular frontend for Conduit",
-  "author": "Thinkster",
+  "author": "Thomas Nyambati",
   "license": "MIT",
-  "browser": {
-    "router": "./build/lib/angular-component-router/angular_1_router.js"
-  },
   "dependencies": {
     "angular": "^1.5.6",
     "angular-animate": "^1.5.6",
@@ -32,6 +29,8 @@
     "gulp-uglify": "^1.5.3",
     "gulp-util": "^3.0.7",
     "gulp-webpack": "^1.5.0",
+    "less": "^2.7.1",
+    "less-loader": "^2.2.3",
     "marked": "^0.3.5",
     "merge-stream": "^1.0.0",
     "ngcomponentrouter": "^2.1.0",
