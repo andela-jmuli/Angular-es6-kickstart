@@ -5,17 +5,11 @@ const webpack = require('gulp-webpack');
 const sync = require('browser-sync').create();
 
 let config = {
-  entry: {
-    vendors: [
-      'angular-material',
-      'angular-material/angular-material.css',
-    ]
-  },
   watch: false,
   module: {
     loaders: [{
       test: /\.css$/,
-      loader: "css-loader"
+      loader: "style!css"
     }, {
       test: /\.js?$/,
       exclude: /(node_modules|bower_components)/,

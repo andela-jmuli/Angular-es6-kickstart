@@ -9,7 +9,7 @@ require('require-dir')('./gulp');
 
 
 //Launch app development mode
-gulp.task('default', ['bower-dev', 'jade', 'webpack', 'watch'], () => {
+gulp.task('default', ['jade', 'webpack', 'watch'], () => {
 
   sync.init(['./build/**/**.**'], {
     server: "./build",
