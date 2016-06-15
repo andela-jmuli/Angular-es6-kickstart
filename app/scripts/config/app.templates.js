@@ -1,0 +1,2 @@
+angular.module("templates", []).run(["$templateCache", function($templateCache) {$templateCache.put("router/router-component.html","<div layout=\"column\" style=\"height:600px\" ng-cloak=\"\"><md-toolbar md-scroll-shrink=\"\" ng-if=\"true\"><div class=\"md-toolbar-tools\"><h3><span> this is something awesome</span></h3></div></md-toolbar><md-content flex=\"\"><ng-outlet></ng-outlet></md-content></div>");
+$templateCache.put("components/home/home.component.html","<p>this is the big new home</p>");}]);

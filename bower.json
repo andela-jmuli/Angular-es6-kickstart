@@ -1,0 +1,20 @@
+{
+  "name": "conduit-angularjs",
+  "description": "Angular frontend for Conduit",
+  "main": "",
+  "authors": [
+    "Thinkster"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-material": "^1.0.9"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "strict": true,
+  "node": true,
+  "esversion": 6,
+  "varstmt":true,
+  "mocha": false,
+  "predef":[]
+}
